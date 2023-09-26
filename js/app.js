@@ -3,6 +3,7 @@
 const body = document.querySelector("body");
 const menu = document.querySelector(".menu-list");
 const menuLInks = document.querySelectorAll(".menu-list > ul > li");
+const video = document.querySelector(".dev-img > video");
 
 function openMenu() {
   menu.classList.add("show-menu");
