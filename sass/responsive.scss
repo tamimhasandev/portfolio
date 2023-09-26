@@ -363,6 +363,11 @@
       .inner {
         .project-wrapper {
           grid-template-columns: 1fr;
+          li {
+            .project-thumb {
+              width: 100%;
+            }
+          }
         }
       }
     }
@@ -405,6 +410,16 @@
     .container {
       .inner {
         padding-top: 10px;
+        .contact-wrapper {
+          .content {
+            width: 100%;
+            form {
+              input[type="submit"] {
+                font-size: 14px;
+              }
+            }
+          }
+        }
       }
     }
   }
