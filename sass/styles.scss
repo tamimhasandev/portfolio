@@ -407,6 +407,10 @@ header {
               height: 39px;
               border-radius: 100px;
               overflow: hidden;
+              img {
+                object-fit: cover;
+                object-position: top;
+              }
             }
             .text {
               overflow: hidden;
